@@ -1,0 +1,354 @@
+/* GENERAL */
+
+  body {
+    box-shadow: inset 0 0 1rem rgba(0, 0, 0, .5);
+    transition: opacity 2s;
+    font-family: Poppins;
+    /*background: #121212;*/
+    
+    background: #414141;
+    opacity: 0;
+  }
+  a.links {
+    color: #00b3ed;
+  }
+  a.links:focus,
+  a.links:hover {
+    color: #0B6ED6;
+  }
+  li {
+    list-style: none;
+  }
+  ul {
+    padding: 0;
+  }
+
+  .box_principal {
+    -webkit-box-shadow: 3px -1px 6px 3px rgba(0,0,0,0.6);
+    -moz-box-shadow: 3px -1px 6px 3px rgba(0,0,0,0.6);
+    box-shadow: 3px -1px 6px 3px rgba(0,0,0,0.6);
+    background: #304460;
+  }
+
+
+  .dates {
+    font-weight: 900;
+    color: #fd2323;
+  }
+  .active {
+    color: #fd2323;
+  }
+  .active:hover {
+    color: #01bcf1;
+  }
+
+  a,
+  a:focus,
+  a:hover {
+    color: #3d3d3d;
+  }
+
+  .fa-theater-masks:hover {
+    -webkit-transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+  }
+
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+  }
+
+  .topNavBar {
+    background: #29abe2;
+    padding: 25px 0;
+  }
+  .sectionFooter {
+    background: #252525;
+  }
+  .sectionTop {
+    height: 170px;
+  }
+  .sectionBio {
+    background-image: -webkit-linear-gradient(60deg, rgba(0, 196, 239, 0.1) 55%, #FFF 55%);
+  }
+  .fab {
+    font-size: 21px;
+  }
+  .fas {
+    color: #fff;
+    letter-spacing: 2px;
+  }
+
+  .btn-contacto {
+    background: #161616;
+    color: #fff;
+  }
+  .btn-contacto:hover {
+    background: #696969;
+    color: #fff;
+  }
+  #navMob,
+  #hideNavMob,
+  #hideNavMobText {
+    display: none;
+  }
+
+  #btnToTop {
+    background-color: #965100;
+    cursor: pointer;
+    position: fixed;
+    outline: none;
+    display: none;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 5px 12px;
+    bottom: 12px;
+    left: 12px;
+    z-index: 99;
+  }
+  #btnToTop:hover {
+    background-color: #555;
+  }
+  .logo_morita {
+    width: 100px;
+  }
+  .logo_che {
+    width: 220px;
+  }
+  .bio_desc {
+    text-align: justify;
+  }
+  .form-control {
+    padding: 25px;
+  }
+/* GALLERY SECTION */
+
+  img.gallery-thumbnail {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .frame_img {
+    padding: 5px;
+    max-height: 213px;
+  }
+  .frame_img_vertical {
+    padding: 5px;
+    max-height: 414px;
+  }
+  .lg-toolbar,
+  .lg-group {
+    z-index: 9999;
+  }
+  @media (max-width: 700px) {
+    .frame_img {
+      padding: 8px 0;
+    }
+  }
+
+  /* [2] Transition property for smooth transformation of images */
+  .gallery_hover_zoom img {
+    transition: transform .7s ease;
+  }
+  /* [3] Finally, transforming the image when container gets hovered */
+  .gallery_hover_zoom:hover img {
+    transform: scale(1.1);
+  }
+
+/* SECTIONS */
+
+  .sectionPrincipal {
+    display: grid;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .secionSauces {
+    background-image: url(../imgs/bgs/bg_sauces.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+  .secionCortes {
+    background-image: url(../imgs/bgs/bg_cortes.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+  }
+  .secionEmpanadas {
+    background-image: url(../imgs/bgs/bg_empanadas.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+  }
+  .secionChistorras {
+    background-image: url(../imgs/bgs/bg_chistorras.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .secionPaquetes {
+    background-image: url(../imgs/bgs/bg.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 60vh;
+  }
+
+/* UTILITIES */
+
+  small {
+    font-family: Montserrat;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  .no_padding {
+    padding: 0;
+  }
+  .no_margin {
+    margin: 0 !important;
+  }
+  .shadow_white {
+    text-shadow: 0 0.15rem 0.4rem rgba(255, 255, 255, .5);
+  }
+  .title_bar {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #fff;
+  }
+  .title_bar_shows {
+      content: '';
+      width: 160px;
+      height: 1px;
+      background: #fff;
+  }
+  .title_bar_black {
+      content: '';
+      width: 60px;
+      height: 3px;
+      background: #161616;
+      /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1340px;
+    }
+    .sectionShow {
+      min-height: 70vh;
+    }
+    .logo_morita {
+      width: 150px;
+    }
+    iframe {
+      height:476px;
+    }
+  }
+  @media (min-width: 1100px) {
+    .sectionTop {
+      height: 130px;
+    }
+    .logo_che {
+      width: 200px;
+    }
+    .sectionBio {
+      padding: 35px;
+    }
+    .bio_desc {
+      padding: 5px 25px;
+    }
+  }
+  @media (max-width: 480px) {
+    .logo_che_frame {
+      position: relative;
+      text-align: center;
+    }
+    .logo_che {
+      width: 240px;
+      padding: 10px 0 15px;
+    }
+    small {
+      letter-spacing: 2px;
+      font-size: 11px;
+    }
+    .container {
+      margin: 0 !important;
+    }
+    .sectionPrincipal {
+      min-height: 20vh;
+    }
+    .btn {
+      font-size: 14px;
+    }
+  }
+
+  .titlePage {
+    font-family: Big;
+    font-size: 62px;
+  }
+
+/* FONTS */
+
+  .font_poppins {
+    font-family: Poppins;
+  }
+  .font_montserrat {
+    font-family: Montserrat;
+  }
+  .font_big {
+    font-family: Big;
+  }
+  @font-face {
+    font-family:Poppins;
+    src:url(Poppins/Poppins-ExtraLight.otf);
+  }
+  @font-face {
+    font-family:Montserrat;
+    src:url(Montserrat/Montserrat-UltraLight.otf);
+  }
+  @font-face {
+    font-family:Big;
+    src:url(Big/big_noodle_titling.ttf);
+  }
+
+  .fa-facebook:hover {
+    color: #3b5998 !important;
+  }
+  .fa-twitter:hover {
+    color: #00acee  !important;
+  }
+  .fa-instagram:hover {
+    color: #405de6  !important;
+  }
+  .fa-youtube:hover {
+    color: #c4302b   !important;
+  }
+  .fa-whatsapp:hover {
+    color: #25d366   !important;
+  }

@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Morita Digital / Costa">
+    <meta name="description"
+        content="Tenemos el mejor sabor del barrio ven y compruébalo. Contamos con servicio a domicilio. Asados, cortes, empanadas y más.">
+
+    <meta property="og:image" content="https://elchedelbarrio.com/og.jpg" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <title>El Che del Barrio | Restaurante</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="lightgallery/dist/css/lightgallery.css">
+    <link rel="stylesheet" href="css/sweetalert.min.css">
+    <link rel="stylesheet" href="css/hover/imagehover.css">
+    <link rel="stylesheet" href="css/aos/aos.css">
+    <link rel="stylesheet" href="css/cover.css">
+    <link rel="stylesheet" href="css/nuevocss.css">
+
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+        (function () {
+            var options = {
+                facebook: "201274723390821", // Facebook page ID
+                whatsapp: "+525518824642", // WhatsApp number
+                call_to_action: "¡Pide ahora!", // Call to action
+                button_color: "#FF6550", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+                order: "facebook,whatsapp", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+        function updatemenu() {
+            if (document.getElementById('responsive-menu').checked == true) {
+                document.getElementById('menu').style.borderBottomRightRadius = '0';
+                document.getElementById('menu').style.borderBottomLeftRadius = '0';
+            } else {
+                document.getElementById('menu').style.borderRadius = '10px';
+            }
+        }
+    </script>
+</head>
+
+<body id="toTop">
+
+    <a href="#toTop" id="btnToTop" title="Go to top" style="text-decoration: none;"><i
+            class="fas fa-angle-double-up"></i></a>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Promos</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="">
+                    <li class="p-1 text-white fab fa-twitter"> </li>
+                </a>
+
+                <a href="">
+                    <li class="p-1 text-white fab fa-facebook"> </li>
+                </a>
+
+                <a href="">
+                    <li class="p-1 text-white fab fa-instagram"> </li>
+                </a>
+            </form>
+        </div>
+    </nav>
+
+    <!-- PRINCIPAL -->
+    <div class="sectionPrincipal">
+        <div class="container py-4">
+            <div class="row mt-2">
+                <div class="col-md-3  box_principal mb-2" style="height: 60vh;">
+                    <img src="imgs/logo_che.png" class="logo_che" style="width:100%;">
+
+
+                    <div class="text-center row">
+                        <img class="luz" src="imgs/logo_arg.png"><br>
+                    </div>
+                </div>
+                <div class="col-md-9 d-none d-md-block">
+                    <div class="">
+                        <a href="https://elchedelbarrio.com/promo.html">
+                            <img style="height: 60vh; width: 100%; " src="imgs/02-2022/superball-banner.jpeg"></a>
+                    </div>
+                </div>
+
+                <!--   <div class="col-md-6 offset-md-4 p-5">
+                                <img src="imgs/empanadas.jpg" class="p-4" width="90%">
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+                <!-- SAUCES -->
+                <section class="secionSauces py-5">
+                    <div class="container">
+                        <div class="row no_margin">
+                            <div class="col-md-12 px-5 pb-0">
+                                <h2 class="text-white">ADEREZOS DE CASA</h2>
+                                <h5 class="text-white">Acompaña tus empanadas o cortes</h5>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <img src="imgs/sauces/s_go.png" data-aos="fade-zoom-in" data-aos-duration="2000"
+                                        width="300px">
+                                    <img src="imgs/sauces/s_chimi2.png" data-aos="fade-zoom-in" data-aos-duration="2000"
+                                        width="300px">
+                                    <img src="imgs/sauces/s_che.png" data-aos="fade-zoom-in" data-aos-duration="2000"
+                                        width="300px">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- BANNER -->
+                <section class="py-4 px-2" style="background: #f7f7f7;">
+                    <div class="container" data-aos="fade-zoom-in" data-aos-duration="2000">
+                        <div class="row no_margin">
+                            <div class="col-md-6 p-4 text-center">
+                                <img src="imgs/logo_che2.png" width="220">
+                                <p>
+                                <h5>El Che del Barrio es un restaurante que cuenta con lo mejor de la gastronomía
+                                    argetina.
+
+                                    Por el momento, solo contamos con exquisitas empanadas de Carne, Elote, Chistorra,
+                                    Chorizo,
+                                    Hawaiana y Ate que cautivarán tu paladar. ¡Te estamos esperando! 👍😉</h5>
+                                <a href="#">Pide ahora</a>
+
+
+                            </div>
+                            <div class="col-md-6 p-4 text-center">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img src="imgs/bgs/bg_empanadas.jpg" width="100%">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="pb-4" style="background: #fff;">
+                    <div class="container no_padding">
+                        <div class="row no_margin">
+                            <div class="col-md-12 text-center">
+                                <div class="row">
+                                    <div class="col-md-4 no_padding" data-aos="fade-zoom-in" data-aos-duration="800">
+                                        <a href="https://elchedelbarrio.com/menu"><img src="imgs/test/001.jpg"
+                                                style="padding-right: 8px;" width="100%">
+                                            <div class="centrado">EMPANADAS</div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-4 no_padding" data-aos="fade-zoom-in" data-aos-duration="1600">
+                                        <a href="#"><img src="imgs/test/003.jpg" style="padding: 0 4px;" width="100%">
+                                            <div class="centrado">PRÓXIMAMENTE</div>
+                                        </a>
+                                    </div>
+
+
+
+                                    <div class="col-md-4 no_padding" data-aos="fade-zoom-in" data-aos-duration="2400">
+                                        <a href="#">
+                                            <img src="imgs/test/00.jpg" style="padding-left: 8px;" width="100%">
+                                            <div class="centrado">PRÓXIMAMENTE</div>
+                                        </a>
+                                        
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            
+
+                    <!--  <! <section class="secionPaquetes">
+                <div class="container">
+                    <div class="row no_margin">
+                        <div class="col-md-6 p-5">-->
+                            <div class="footer">
+                                <img src="imgs/02-2022/Ubicaciones.jpeg" class="ubicacion">    
+                            </div>
+            </div>
+
+           
+        </div>
+        
+    </div>
+    
+
+    <!-- PROMOS 
+        <section class="" style="background: #f7f7f7;">
+            <div class="container" style="padding: 0 30px;">
+                <div class="row no_margin" style="text-align:ceter; justify-content: center; background: #fff; position: relative; top: -30px; z-index: 9999; -webkit-box-shadow: 0px 0px 10px 3px rgba(255,255,255,1); -moz-box-shadow: 0px 0px 10px 3px rgba(255,255,255,1); box-shadow: 0px 0px 10px 3px rgba(255,255,255,1);" data-aos="fade-zoom-in" data-aos-duration="1200">
+                   <div class="col-md-5" style="display:inline-block"><img style="width:100%" src="imgs/empanada-promocion.jpg"></div>
+                -->  <!-- <div class="col-md-3 no_padding">
+                        <h4 class="pt-4 pb-2 text-center"><b>Promo 10</b></h4>
+                        <p class="px-4 mb-2" style="font-size: 16px;">
+                            -10 Empanadas <br> (2 Carne, 2 Chorizo, 2 Chistorra, 2 Elote, 2 Hawaiana).
+                        </p>
+                        <h2 class="text-right pb-4 pr-4"><b>$100</b></h2>
+                    </div>
+                    <div class="col-md-3 no_padding">
+                        <img src="imgs/boxes/promo02.jpg" width="100%;">
+                    </div>
+                    <div class="col-md-3 no_padding">
+                        <h3 class="pt-4 pb-2 text-center"><b>Promo Antojo</b></h3>
+                        <p class="px-4 mb-2" style="font-size: 16px;">
+                            -1 Arrachera 250g <br>
+                            -Papas y Ensalada <br>
+                            -2 empanadas <br>
+                        </p>
+                        <h2 class="text-right pb-4 pr-4"><b>$145</b></h2>
+                    </div>
+                    <div class="col-md-3 no_padding">
+                        <img src="imgs/boxes/promo01.jpg" width="100%;">
+                    </div>
+
+                    <div class="col-md-3 d-block d-md-none">
+                        <br><br>
+                    </div>
+
+                    <div class="col-md-3 no_padding">
+                        <img src="imgs/boxes/individual.jpg" width="100%;">
+                    </div>
+                    <div class="col-md-3 no_padding">
+                        <h4 class="pt-4 pb-2 text-center"><b>Promo Individual</b></h4>
+                        <p class="px-4 mb-2" style="font-size: 16px;">
+                            -1 T-Bone <small style="color:#000">doble porcion de papas</small><br>
+                            -1 refresco<br>
+                        </p>
+                        <h2 class="text-right pb-4 pr-4"><b>$110</b></h2>
+                    </div>
+                    <div class="col-md-3 no_padding">
+                        <img src="imgs/boxes/promo04.jpg" width="100%;">
+                    </div>
+                    <div class="col-md-3 no_padding">
+                        <h4 class="pt-4 pb-2 text-center"><b>Duo</b></h4>
+                        <p class="px-4 mb-2" style="font-size: 16px;">
+                                        - 2 choripanes <br>
+            - Porción de papas <br>
+            - Porción de ensalada <br>
+            - 2 Empanadas <small> (Elote - Hawaiana)</small>
+                                    </p>
+                                    <h2 class="text-right pb-4 pr-4"><b>$150</b></h2>
+
+                                    <div class="text-right">
+                                    <a href="https://elchedelbarrio.com/menu" class="btn btn-dark mr-4"> Ver todas</a>
+                                    </div>
+                                </div>
+                                --->
+    <!--
+        <section class="secionSauces">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 p-5">
+                        <h2 class="text-white">ADEREZOS DE CASA</h2>
+                        <h5 class="text-white">Acompaña tus empanadas o cortes</h5>
+                    </div>
+
+                    <div class="col-md-6 p-5 pb-0">
+                        <img src="imgs/s_che.png">
+                    </div>
+
+                    <div class="col-md-6 px-5">
+                        <img src="imgs/s_go.png">
+                    </div>
+
+                    <div class="col-md-6 px-5">
+                        <img src="imgs/s_chimi.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+
+    <!-- FOOTER -->
+
+   <!-- <div class="row no_margin mt-2" style="background-color:#121212; position:relative; top:-60px; z-index: 1;">
+        <div class="col-md-6 text-center text-white" data-aos="fade-zoom-in" data-aos-duration="2000">
+            <br><br>
+            <h2><b>Sucursal Moctezuma</b></h2>
+            <p>Calle Oriente #114, Col. Moctezuma, <br> 2da Sección, Venustiano Carranza <br> C.P. 15530, CDMX</p>
+            <p class="m-0"><i class="fab fa-whatsapp"></i> +52 55 1882 4642</p>
+        </div>
+        <div class="col-md-6 text-center text-white" data-aos="fade-zoom-in" data-aos-duration="2000">
+            <br><br>
+
+            <div class="d-none d-md-block">
+                <br><br>
+            </div>
+
+            <h2><b>P R Ó X I M A M E N T E</b></h2>
+            <h4 class="pt-4"> Sucursal Sur/Tlalpan</h4>
+        </div>
+    </div>
+-->
+    
+
+
+    <div class="row no_margin sectionFooter">
+        <div class="col-12 text-center">
+
+
+            <img src="imgs/logo_che.png" class="logo_che pt-2" style="width:85px;">
+            <p class="text-white d-block mb-2 mt-2" style="font-size: 12px;">Paquetes | A domicilio | Sucursales |
+                Contacto</p>
+            <small class="d-block pt-0" style="font-size: 10px;">© Todos los derechos reservados</small>
+            <a href="http://moritadigital.com/">
+                <img src="imgs/morita_emblema_white.png" class="morita_logo" style="padding: 0 0 20px;">
+            </a>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="lightgallery/dist/js/lightgallery-all.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/aos/aos2-3-1.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("btnToTop");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        window.transitionToPage = function (href) {
+            document.querySelector('body').style.opacity = 0
+            setTimeout(function () {
+                window.location.href = href
+            }, 1000)
+        }
+
+        document.addEventListener('DOMContentLoaded', function (event) {
+            document.querySelector('body').style.opacity = 1
+        })
+    </script>
+
+    <!-- WhatsHelp.io widget 
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    facebook: "201274723390821", // Facebook page ID
+                    whatsapp: "5215523590024", // WhatsApp number
+                    call_to_action: "¡Haznos tu pedido! (:", // Call to action
+                    button_color: "#129BF4", // Color of button
+                    position: "right", // Position may be 'right' or 'left'
+                    order: "facebook,whatsapp", // Order of buttons
+                };
+                var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })();
+        </script>  -->
+
+
+</body>
+
+</html>
